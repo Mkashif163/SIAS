@@ -1,0 +1,69 @@
+
+.logo-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+.navigationbar{
+    background-color: #848484;
+    padding-left: 20rem;
+
+}
+.rotated {
+    transform: rotate(5deg);
+    width: 80%;
+    height: 80%;
+  }
+  .log-btn-title{
+    
+    margin-left: 20px;
+  }
+  .title-heading,.title-text{
+    margin-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+  .title-btn-div{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 250px;
+  }
+
+/* .big-heading {
+    font-family: "Montserrat-Black",sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+/* Buttons */
+
+/* .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  /* #title {
+    background-color: #4cff88;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  /* .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }   */ 
+
