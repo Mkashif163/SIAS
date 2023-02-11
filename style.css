@@ -1,4 +1,6 @@
-
+#title{
+    background-color: #2e8e5c;
+}
 .logo-image{
     border-radius: 50%;
     width: 50px;
@@ -6,7 +8,7 @@
     
 }
 .navigationbar{
-    background-color: #848484;
+    background-color: #000000;
     padding-left: 20rem;
 
 }
@@ -19,7 +21,9 @@
     
     margin-left: 20px;
   }
+
   .title-heading,.title-text{
+    color: white;
     margin-left: 70px;
     padding-right: 30px;
     padding-bottom: 20px;
@@ -28,6 +32,11 @@
     margin-top: 10px;
     padding-top: 10px;
     margin-left: 250px;
+  }
+  .navbar-toggler-icon {
+    
+    background-color: none;
+    border-radius: 50px;
   }
 
 /* .big-heading {

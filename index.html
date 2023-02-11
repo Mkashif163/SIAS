@@ -12,47 +12,52 @@
     
 </head>
 <body>
-  <section id="title"></section>
-    <nav class="navbar navbar-expand-lg navigationbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="logo-image" src="assets/logo.png" alt="logo" width="50" height="50"></a>
-            <ul class="navbar-nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Analytics</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Courses
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ">About</a>
-              </li>
-              <li class="nav-item">
-                <form class="d-flex" role="search">
-                    <button class="btn search-btn" style="background-color: rgb(21, 201, 39);" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                  </form>
-              </li>
+  <nav class="navbar navbar-expand-lg navigationbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="logo-image" src="assets/logo.png" alt="logo" width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color: white; font-size: 24px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-center w-100">
+          <li class="nav-item">
+            <a class="nav-link active" style="color:white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:white" href="#">Analytics</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color:white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <div>
-                <button class="btn log-btn" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Log In</button>
-                <button class="btn log-btn" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Sign Up</button>
-            </div>
-             
-            </nav>
-            <section class="d-flex align-items-center">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="color:white">About</a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex" role="search">
+                <button class="btn search-btn" style="background-color: rgb(21, 201, 39);" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+          </li>
+        </ul>
+      </div>
+        <div class="d-none d-md-block">
+            <button class="btn log-btn" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Log In</button>
+            <button class="btn log-btn" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Sign Up</button>
+        </div>
+    </div>
+  </nav>
+  
+            <section class="d-flex align-items-center" id="title">
               <div class="col-md-6 text-left">
-                <h1 class="title-heading">Turn Your ambtition into a success story</h1>
-                <h3 class="title-text">Sias provide easy and more effective way to learn by Analyzing you all the time during your lectures</h3>
+                <h1 class="title-heading">Turn Your ambition into a success story</h1>
+                <h3 class="title-text">SIAS provide easy and more effective way to learn by Analyzing you all the time during your lectures</h3>
                 <div class="title-btn-div">
                   <button class="btn log-btn-title" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Log In</button>
                   <button class="btn log-btn-title" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Sign Up</button>
@@ -63,8 +68,53 @@
               </div>
             </section>
               
-          </div> 
+          
     </section>
+    <div class="container my-5">
+      <h2 class="text-center font-weight-bold">Features</h2>
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="card mx-3 my-3 shadow" style="width: 18rem;">
+          <img src="your-image-url-here.jpg" class="card-img-top" alt="User-friendly interface">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">User-friendly interface</h5>
+            <p class="card-text text-center">Our website offers a modern, user-friendly interface that makes it easy to use and navigate.</p>
+          </div>
+        </div>
+    
+        <div class="card mx-3 my-3 shadow" style="width: 18rem;">
+          <img src="your-image-url-here.jpg" class="card-img-top" alt="AI-powered analysis">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">AI-powered analysis</h5>
+            <p class="card-text text-center">Our website uses artificial intelligence and computer vision to analyze student attentiveness during video lectures.</p>
+          </div>
+        </div>
+    
+        <div class="card mx-3 my-3 shadow" style="width: 18rem;">
+          <img src="your-image-url-here.jpg" class="card-img-top" alt="Real-time reports">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Real-time reports</h5>
+            <p class="card-text text-center">Our website provides real-time reports and monitoring of student attentiveness, allowing teachers to track progress and improvement.</p>
+          </div>
+        </div>
+    
+        <div class="card mx-3 my-3 shadow" style="width: 18rem;">
+          <img src="your-image-url-here.jpg" class="card-img-top" alt="Customizable settings">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Customizable settings</h5>
+            <p class="card-text text-center">Our website allows users to customize their settings and create a personalized experience tailored to their needs.</p>
+          </div>
+        </div>
+    
+        <div class="card mx-3 my-3 shadow" style="width: 18rem;">
+          <img src="your-image-url-here.jpg" class="card-img-top" alt="Secure data storage">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Secure data storage</h5>
+            <p class="card-text text-center">Our website uses secure servers and data encryption to ensure that your data is safe and protected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
       <!-- font awsm script -->
       <script src="https://kit.fontawesome.com/dbb1a1b31e.js" crossorigin="anonymous"></script>
