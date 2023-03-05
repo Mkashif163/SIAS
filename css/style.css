@@ -115,40 +115,12 @@
   padding: 100px 150px;
 }
 
-/* .big-heading {
-    font-family: "Montserrat-Black",sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-  }
-  
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-/* Buttons */
+/* content page */
 
-/* .download-button {
-    margin: 5% 3% 5% 0;
-  }
-  
-  /* Title Section */
-  
-  /* #title {
-    background-color: #4cff88;
-    color: #fff;
-    text-align: left;
-  }
-  
-  #title .container-fluid {
-    padding: 3% 15% 7%;
-  }
-  
-  /* Title Image */
-  
-  /* .title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
-  }   */ 
-
+.student-list{
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.lectures-thumnails{
+  margin-left: 5rem;
+}

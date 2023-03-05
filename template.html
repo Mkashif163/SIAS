@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+<!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navigationbar px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="logo-image" src="assets/logo.png" alt="logo" width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color: white; font-size: 24px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-center w-100">
+          <li class="nav-item">
+            <a class="nav-link active" style="color:white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:white" href="#">Analytics</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color:white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="color:white">About</a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex" role="search">
+                <button class="btn search-btn" style="background-color: rgb(21, 201, 39);" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+          </li>
+        </ul>
+      </div>
+        <div class="d-none d-md-block">
+            <button class="btn log-btn" onclick="location.href='/login'" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Log In</button>
+            <button class="btn log-btn" onclick="location.href='/signup'" style="background-color:  rgb(21, 201, 39);font-family: 'Montserrat', sans-serif;">Sign Up</button>
+        </div>
+    </div>
+  </nav>
+
+
+  <!-- footer -->
+
+  
+  <footer class="py-3 footer-s">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="footer-text mb-0">
+          <i class="fas fa-copyright mr-2"></i> 
+          SIAS
+        </p>
+        <div class="d-flex">
+          <a href="#" class="footer-text mr-3">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="#" class="footer-text mr-3">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="#" class="footer-text">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- font awsm script -->
+    <script src="https://kit.fontawesome.com/dbb1a1b31e.js" crossorigin="anonymous"></script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
